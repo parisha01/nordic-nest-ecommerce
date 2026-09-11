@@ -1,0 +1,18 @@
+# Nordic Nest — root .htaccess
+# Works on Apache-based hosting (XAMPP, InfinityFree, GoogieHost).
+# Folder-blocking rules for /config and /database live in their
+# own .htaccess files inside those folders (see config/.htaccess
+# and database/.htaccess) — <Directory> blocks are only valid in
+# Apache's main server config, never inside a .htaccess file, so
+# they must NOT be used here (using them here is what caused the
+# Internal Server Error).
+
+# Never cache PHP responses that contain user/session-specific content.
+<IfModule mod_headers.c>
+  <FilesMatch "\.php$">
+    Header set Cache-Control "no-store, no-cache, must-revalidate"
+  </FilesMatch>
+</IfModule>
+
+# Hide directory listings.
+Options -Indexes
