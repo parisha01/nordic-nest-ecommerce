@@ -128,3 +128,4 @@ reviewed as code:
   additions
 - Full live HTTP smoke test of every public and admin page — no PHP
   errors or warnings
+- Old features (filters, search) still work with new features
