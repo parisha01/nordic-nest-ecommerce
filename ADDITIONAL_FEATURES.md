@@ -50,9 +50,7 @@ follow the member across devices. A count badge appears in the nav.
 
 ## 3. Coupon / Discount Codes
 
-Admin-managed discount codes (percentage or fixed amount, with an
-optional minimum order value, usage limit, and expiry date), applied at
-checkout. Every rule is **re-validated server-side at the moment of
+Admins can create discount codes(e.g. WELCOME10 for 10% off). Codes can have expiry dates and minimum order amounts. Everything is checked on the server when customer checks out. Every rule is **re-validated server-side at the moment of
 payment** — never trusted from a hidden form field — and the discount is
 recorded on the order alongside the subtotal it was calculated from.
 Three sample codes are seeded: `WELCOME10` (10% off), `SAVE20` ($20 off
