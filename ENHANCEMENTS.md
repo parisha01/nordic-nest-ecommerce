@@ -70,7 +70,7 @@ Complete "forgot password" workflow:
 - `reset_password.php` — Complete password reset
 
 ### Files Modified
-- `includes/functions.php` — Added `generate_reset_token()` and `log_email_notification()`
+- `includes/functions.php` — we Added two new helper functions :  `generate_reset_token()`to create secure reset tokens, and `log_email_notification()` to login emails
 - `login.php` — Added "Forgot your password?" link
 - `database/schema.sql` — Added token columns to users table
 
