@@ -4,7 +4,7 @@ This document outlines all the **optional enhancements** added to the Nordic Nes
 
 ---
 
-## ✨ Enhancement 1: Advanced Product Filtering
+##  Enhancement 1: Advanced Product Filtering
 
 ### What Was Added
 Three new filter types on the Shop page that work individually and together:
@@ -167,7 +167,7 @@ mail($email, 'Reset Password', $message, $headers);
 
 ## 📋 Summary: What Still Works
 
-✅ All original functionality remains unchanged:
+✅ All original functionality remains unchanged . they are:
 - User authentication (register/login/logout)
 - Product catalog with categories
 - Shopping cart
@@ -305,5 +305,5 @@ function send_reset_email($to, $reset_token) {
 
 **Created:** September 2026
 **For:** ICT726 Web Development, Assignment 4
-**Status:** Ready for submission ✅
+**Status:** Ready for submission 
 done done done 
